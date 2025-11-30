@@ -40,7 +40,7 @@ const Blogs = () => {
                   {blog.title}
                 </h3>
 
-                <p className="text-gray-600 text-sm sm:text-base mb-3 line-clamp-2">
+                <p className="text-gray-600 text-sm sm:text-sm mb-3 line-clamp-2">
                   {blog.shortdescription}
                 </p>
 
@@ -59,7 +59,7 @@ const Blogs = () => {
         <div className="text-center mt-10">
           <button
             onClick={() => setVisibleCount(visibleCount + 3)}
-            className="px-6 py-2 text-sm sm:text-base bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            className="px-6 py-2 text-sm sm:text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
           >
             View More
           </button>

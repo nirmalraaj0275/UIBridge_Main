@@ -98,7 +98,7 @@ const Contactus = () => {
             <button
               type="submit"
               disabled={loading}
-              className={`bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition ${
+              className={`bg-bg text-white px-6 py-3 rounded-lg font-semibold transition ${
                 loading ? "opacity-70 cursor-not-allowed" : "hover:bg-blue-700"
               }`}
             >
@@ -111,7 +111,7 @@ const Contactus = () => {
         <div className="space-y-8">
           <div>
             <h3 className="text-xl font-semibold mb-3">Engineering Delivery Centre</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-sm">
               UI Bridge Solutions Pvt Ltd,<br />
               SPARK INCUBATION CENTRE, SREC Campus, Vattamalaipalayam,<br />
               N.G.G.O Colony P.O, Coimbatore – 641022,<br />
@@ -121,7 +121,7 @@ const Contactus = () => {
 
           <div>
             <h3 className="text-xl font-semibold mb-3">Registered Address</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-sm">
               No 3D, 6th Block, Sai Amirtha Apartment,<br />
               Sathya Narayan Nagar, Podanur Post,<br />
               Coimbatore – 641023,<br />

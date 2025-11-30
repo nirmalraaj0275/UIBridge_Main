@@ -39,7 +39,7 @@ const Calibration = () => {
               Calibration of EIT2.0 Instruments
             </h1>
             <div className="h-1 w-24 bg-blue-500 rounded-full"></div>
-            <p className="text-base sm:text-lg md:text-xl opacity-95 leading-relaxed font-light">
+            <p className="text-sm sm:text-lg md:text-xl opacity-95 leading-relaxed font-light">
               Certified EIT2.0 calibration services in India — precise, reliable & authorized.
             </p>
           </div>
@@ -54,7 +54,7 @@ const Calibration = () => {
           </h2>
           <div className="h-1 w-32 bg-bg mx-auto rounded-full mb-6"></div>
         </div>
-        <p className="text-base text-gray-700 leading-relaxed max-w-3xl mx-auto">
+        <p className="text-sm text-gray-700 leading-relaxed max-w-3xl mx-auto">
           UI Bridge is the authorized calibration centre for EIT2.0 instruments in India and is certified to perform calibrations in accordance with EIT2.0 standards.
         </p>
       </section>
@@ -77,7 +77,7 @@ const Calibration = () => {
               Why Calibration is Needed
             </h2>
             <div className="h-1 w-20 bg-bg rounded-full"></div>
-            <p className="text-gray-700 text-base leading-relaxed">
+            <p className="text-gray-700 text-sm leading-relaxed">
               For accurate and reliable UV curing results, it's essential to regularly adjust and calibrate instruments. Calibration ensures precision and consistent product quality.
             </p>
           </div>
@@ -124,7 +124,7 @@ const Calibration = () => {
             </h2>
             <div className="h-1 w-20 bg-bg rounded-full"></div>
 
-            <p className="text-gray-700 text-base leading-relaxed">
+            <p className="text-gray-700 text-sm leading-relaxed">
               Calibrations for broadband instruments are always performed using an arc lamp. We provide calibration services for standard high-power & mid-power instruments.
             </p>
 

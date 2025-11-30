@@ -77,15 +77,13 @@ const Navbar = () => {
   }, [location.pathname]);
 
   const navItem = (id) =>
-    `relative pb-1 transition ${
-      activeSection === id && location.pathname === "/"
-        ? "text-bg font-semibold"
-        : "text-gray-700"
+    `relative pb-1 transition ${activeSection === id && location.pathname === "/"
+      ? "text-bg font-semibold"
+      : "text-gray-700"
     }`;
 
   const underline = (id) =>
-    `absolute left-0 bottom-0 h-[2px] bg-bg transition-all duration-300 ${
-      activeSection === id && location.pathname === "/" ? "w-full" : "w-0"
+    `absolute left-0 bottom-0 h-[2px] bg-bg transition-all duration-300 ${activeSection === id && location.pathname === "/" ? "w-full" : "w-0"
     }`;
 
   return (
@@ -151,7 +149,7 @@ const Navbar = () => {
               transition={{ duration: 0.25 }}
             >
               <div className="flex justify-between items-center mb-6">
-                <h2 className="text-xl font-semibold text-blue-700">Menu</h2>
+                <h2 className="text-xl font-semibold text-bg">Menu</h2>
                 <button onClick={() => setMenuOpen(false)}>
                   <IoClose className="text-2xl" />
                 </button>

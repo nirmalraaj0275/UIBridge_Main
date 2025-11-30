@@ -22,7 +22,7 @@ const Capabilities = () => {
          <div className="h-1 w-32 bg-bg mx-auto rounded-full mb-6"></div>
 
         <p 
-          className="text-gray-600 text-center mb-12 max-w-2xl mx-auto"
+          className="text-gray-600 text-center mb-12 max-w-2xl mx-auto text-sm"
           data-aos="fade-up"
           data-aos-delay="150"
         >

@@ -106,7 +106,7 @@ const Careers = () => {
               Careers at UI Bridge
             </h1>
             <div className="h-1 w-24 bg-blue-500 rounded-full"></div>
-            <p className="text-base sm:text-lg md:text-xl opacity-95 leading-relaxed font-light">
+            <p className="text-sm sm:text-lg md:text-xl opacity-95 leading-relaxed font-light">
               We’re always looking for smart, passionate people who want to build great products.
             </p>
           </div>
@@ -128,7 +128,7 @@ const Careers = () => {
 
               {/* Full Name */}
               <div>
-                <label className="block text-base font-medium mb-2 text-gray-700">
+                <label className="block text-sm font-medium mb-2 text-gray-700">
                   Full Name <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -141,7 +141,7 @@ const Careers = () => {
 
               {/* Email */}
               <div>
-                <label className="block text-base font-medium mb-2 text-gray-700">
+                <label className="block text-sm font-medium mb-2 text-gray-700">
                   Email <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -155,7 +155,7 @@ const Careers = () => {
 
               {/* Phone */}
               <div>
-                <label className="block text-base font-medium mb-2 text-gray-700">
+                <label className="block text-sm font-medium mb-2 text-gray-700">
                   Phone
                 </label>
                 <input
@@ -168,7 +168,7 @@ const Careers = () => {
 
               {/* Position */}
               <div>
-                <label className="block text-base font-medium mb-2 text-gray-700">
+                <label className="block text-sm font-medium mb-2 text-gray-700">
                   Position Applying For <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -181,7 +181,7 @@ const Careers = () => {
 
               {/* Resume */}
               <div className="col-span-2">
-                <label className="block text-base font-medium mb-2 text-gray-700">
+                <label className="block text-sm font-medium mb-2 text-gray-700">
                   Resume <span className="text-red-500">*</span>
                 </label>
                 <input

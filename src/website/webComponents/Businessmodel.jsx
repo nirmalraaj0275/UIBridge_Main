@@ -1,22 +1,23 @@
 import React from "react";
+import {b1 ,b2,b3} from "@/assets/images/HomeHero";
 
 const models = [
   {
-    img: "src/assets/images/HomeHero/bm-01.png",
+    img: {b1},
     alt: "Industrial",
     lines: [
       "Turnkey Solutions - Engineering Solutions - From Concept to Launch",
     ],
   },
   {
-    img: "src/assets/images/HomeHero/bm-02.png",
+    img: {b2},
     alt: "Consumer",
     lines: [
       "Extended Design Center (EDC) - Your Vision - Our Extended Expertise.",
     ],
   },
   {
-    img: "src/assets/images/HomeHero/bm-03.png",
+    img: {b3},
     alt: "Consumer",
     lines: [
       "T&M / Staff Augmentation - Right Skills at Right Time",

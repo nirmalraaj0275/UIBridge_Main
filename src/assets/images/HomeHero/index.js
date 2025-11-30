@@ -33,5 +33,10 @@ import career from "./careerbanner.jpg"
 import whyus from "./whyus.jpg"
 
 
+import b1 from "./bm-01.png"
+import b2 from "./bm-02.png"
+import b3 from "./bm-03.png"
 
-export {whyus, career, instrument1, instrument2, instrument3, instrument4, calibrate, whyweshouldcalibrate, calibratebanner, source1, source2, about, industries, consumer, model, aero, semiconductor, automotive, staff, consulting, about1, team1, team2, team3, team4, team5, team6, team7, team8, world, source3, source4, Careers };
+
+
+export {b1, b2, b3, whyus, career, instrument1, instrument2, instrument3, instrument4, calibrate, whyweshouldcalibrate, calibratebanner, source1, source2, about, industries, consumer, model, aero, semiconductor, automotive, staff, consulting, about1, team1, team2, team3, team4, team5, team6, team7, team8, world, source3, source4, Careers };

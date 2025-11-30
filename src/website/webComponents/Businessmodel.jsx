@@ -3,21 +3,21 @@ import {b1 ,b2,b3} from "@/assets/images/HomeHero";
 
 const models = [
   {
-    img: {b1},
+    img: b1,
     alt: "Industrial",
     lines: [
       "Turnkey Solutions - Engineering Solutions - From Concept to Launch",
     ],
   },
   {
-    img: {b2},
+    img: b2,
     alt: "Consumer",
     lines: [
       "Extended Design Center (EDC) - Your Vision - Our Extended Expertise.",
     ],
   },
   {
-    img: {b3},
+    img: b3,
     alt: "Consumer",
     lines: [
       "T&M / Staff Augmentation - Right Skills at Right Time",

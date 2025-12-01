@@ -277,12 +277,12 @@ const Careers = () => {
                 <li>• Modern tech stack & projects</li>
               </ul>
 
-              <p className="text-gray-500 mt-4 text-xs sm:text-sm">
+              {/* <p className="text-gray-500 mt-4 text-xs sm:text-sm">
                 Questions? Email{" "}
                 <a href="mailto:hr.cbe@uibridgesolutions.com" className="text-blue-600">
                   hr.cbe@uibridgesolutions.com
                 </a>
-              </p>
+              </p> */}
             </div>
           </aside>
         </div>
